@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom With Website</title>
+    <!-- daisy UI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.10.5/dist/full.min.css" rel="stylesheet" type="text/css" />
+     <script src="https://cdn.tailwindcss.com"></script>
+     <link rel="stylesheet" href="style.css">
+
+</head>
+<body class="font-Poppins container mx-auto">
+    <!-- nav bar -->
+    <header>
+        <nav>
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+                    </div>
+                    <!-- <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                      <li><a>Homepage</a></li>
+                      <li><a>Portfolio</a></li>
+                      <li><a>About</a></li>
+                    </ul> -->
+                  </div>
+                </div>
+                <div class="navbar-center gap-3 ">
+                    <img class="w-8 h-8" src="images/shopping-cart.png" alt="">
+                    <sup id="addToCard" class="font-medium text-black		">0</sup>
+                 <h2>Add To card</h2>
+                </div>
+                <div class="navbar-end">
+                  <button class="btn btn-ghost btn-circle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+                  </button>
+                  <button class="btn btn-ghost btn-circle">
+                    <div class="indicator">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" /></svg>
+                      <span class="badge badge-xs badge-primary indicator-item"></span>
+                    </div>
+                  </button>
+                </div>
+              </div>
+        </nav>
+     </header>
+
+<!-- Main  -->
+<main>
+    <!-- Let's Travel  -->
+<section class="flex justify-center items-center  text-center ">
+    <div class=" justify-center space-y-4">
+ <h1 class="text-6xl	">Les's Travel</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Ea labore, aperiam laudantium facilis rerum impedit quia qui magnam velit quae aut architecto,  <br>animi dolores enim similique fugit nobis? Earum, non.</p>
+<h2 class="text-2xl	 font-bold	">Total Budget: <span>900$</span></h2>
+    </div>
+    <div class=" justify-center ">
+        <img src="images/edit.png" alt="">
+    </div>
+</section>
+<!-- card  -->
+<section class="flex">
+<div class="grid grid-cols-1 md:grid-cols-2 border-2 gap-10 p-10 ">
+    <!-- first card -->
+    <div class="card w-72 bg-base-100 shadow-xl ">
+        <figure class="px-10 pt-10">
+          <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" class="rounded-xl" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">Shajek</h2>
+          <p>Cost: <span>300$</span></p>
+          <div class="card-actions">
+            <button class="px-2 py-2 bg-zinc-400 text-">Add to cart</button>
+          </div>
+        </div>
+      </div>
+    <!-- second card -->
+    <div class="card w-72 bg-base-100 shadow-xl">
+        <figure class="px-10 pt-10">
+          <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" class="rounded-xl" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">Shajek</h2>
+          <p>Cost: <span>300$</span></p>
+          <div class="card-actions">
+            <button class="px-2 py-2 bg-zinc-400 text-">Add to cart</button>
+          </div>
+        </div>
+      </div>
+    <!-- third card -->
+    <div class="card w-72 bg-base-100 shadow-xl">
+        <figure class="px-10 pt-10">
+          <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" class="rounded-xl" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">Shajek</h2>
+          <p>Cost: <span>300$</span></p>
+          <div class="card-actions">
+            <button class="px-2 py-2 bg-zinc-400 text-">Add to cart</button>
+          </div>
+        </div>
+      </div>
+    <!-- four card -->
+    <div class="card w-72 bg-base-100 shadow-xl">
+        <figure class="px-10 pt-10">
+          <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" class="rounded-xl" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">Shajek</h2>
+          <p>Cost: <span>300$</span></p>
+          <div class="card-actions">
+            <button class="px-2 py-2 bg-zinc-400 text-">Add to cart</button>
+          </div>
+        </div>
+      </div>
+
+
+</div>
+
+<!-- count card -->
+<div class="  space-y-6 mx-auto text-center">
+<h3 class="text-2xl">Card</h3>
+<hr class="w-5">
+<p>Total Cost: <span>0$</span></p>
+<div class="flex gap-4">
+    <button class="px-2 py-2 bg-zinc-400 text-">Bus <span>+100</span></button>
+    <button class="px-2 py-2 bg-zinc-400 text-">Train <span>+200</span></button>
+    <button class="px-2 py-2 bg-zinc-400 text-">Fight <span>+500</span></button>
+
+</div>
+<hr>
+<h3>Grand Total: 0$</h3>
+</div>
+
+
+</section>
+</main>
+
+
+
+<footer></footer>
+
+
+
+
+
+
+
+</body>
+</html>
